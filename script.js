@@ -67,13 +67,13 @@ const menu = {
       {
         "image": "https://menu.capito.com.kz/files/products/malina-berri-rouge1.300x300.jpg",
         "name": "Пирожное малина",
-        "price": 300,
+        "price": 3500,
         "description": "Эффектное пирожное в форме малины"
       },
       {
         "image": "https://menu.capito.com.kz/files/products/desert-solar-velvet.300x300.png",
         "name": "Десерт «Solar Velvet»",
-        "price": 280,
+        "price": 2800,
         "description": "Нежный ванильный бисквит с клубничным компоте и воздушным манговым муссом"
       },
       {
