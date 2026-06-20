@@ -1,83 +1,98 @@
 const menu = {
-    "Закуски": [
+    "Завтраки": [
       {
-        "name": "Брускетта с томатами",
-        "price": 350,
-        "description": "Хрустящий чиабатта с ароматными томатами, базиликом и оливковым маслом."
+        "image": "https://menu.capito.com.kz/files/products/ovsyanaya-kasha-s-tolkanom.300x300.jpg",
+        "name": "Овсянная каша с талканом",
+        "price": 1900,
+        "description": "Овсяная каша с талканом на молоке и сливках"
       },
       {
-        "name": "Тартар из лосося",
-        "price": 650,
-        "description": "Свежий лосось с авокадо, каперсами и соусом из лайма."
+        "image": "https://menu.capito.com.kz/files/products/zavtrak-belkovyj.300x300.jpg",
+        "name": "Белковый завтрак",
+        "price": 3950,
+        "description": "Белковый завтрак: воздушный омлет из белков со сливками"
       },
       {
-        "name": "Сырная тарелка",
-        "price": 800,
-        "description": "Ассорти фермерских сыров, подается с медом и орехами."
+        "image": "https://menu.capito.com.kz/files/products/chia-puding.260x210.jpg",
+        "name": "Чиа пудинг",
+        "price": 2800,
+        "description": "Чиа-пудинг с гранолой, свежей клубникой и бананом"
       },
       {
-        "name": "Карпаччо из говядины",
-        "price": 700,
-        "description": "Тончайшие ломтики говядины с пармезаном, рукколой и трюфельным маслом."
+        "image": "https://menu.capito.com.kz/files/products/skrembl-so-strachateloj-.260x210.jpg",
+        "name": "Скрэмбл со страчателлой",
+        "price": 3100,
+        "description": "Скрэмбл из трех яиц с нежным сыром страчателла"
       },
       {
-        "name": "Овощные палочки с хумусом",
-        "price": 300,
-        "description": "Свежие овощи с домашним классическим хумусом."
+        "image": "https://menu.capito.com.kz/files/products/skrembl-s-krevetkoj-na-derevenskom-hlebe.260x210.jpg",
+        "name": "Скрэмбл с креветкой на деревенском хлебе",
+        "price": 3800,
+        "description": "Легкий завтрак в виде брускетты"
       }
     ],
-    "Горячие_блюда": [
+    "Сэндвичи": [
       {
-        "name": "Стейк Рибай",
-        "price": 1800,
-        "description": "Сочный стейк из мраморной говядины, прожарка на выбор."
+        "image": "https://menu.capito.com.kz/files/products/sendvich-iz-pechi-ovoschnoj-.260x210.jpg",
+        "name": "Сэндвич из печи овощной",
+        "price": 2600,
+        "description": "Фокачча, запеченная в дровяной печи с прослойкой из соуса Ранч"
       },
       {
-        "name": "Лосось на гриле",
-        "price": 1200,
-        "description": "Филе лосося с гарниром из спаржи и соусом белое вино."
+        "image":"https://menu.capito.com.kz/files/products/sendvich-iz-pechi-s-semgoj.260x210.jpg",
+        "name": "Сэндвич из печи с семгой",
+        "price": 3500,
+        "description": "Фокачча, запеченная в дровяной печи с прослойкой из нежнейшей малосоленой семги"
       },
       {
-        "name": "Паста Карбонара",
-        "price": 600,
-        "description": "Спагетти с обжаренным беконом в нежном сливочном соусе с желтком."
+        "image": "https://menu.capito.com.kz/files/products/sendvich-iz-pechi-s-kuritsej-.300x300.jpg",
+        "name": "Сэндвич из печи с курицей",
+        "price": 3100,
+        "description": "Сэндвич, запеченный в дровяной печи с добавлением курицы, соуса Ранч"
       },
       {
-        "name": "Утиная грудка",
-        "price": 1100,
-        "description": "Нежная утиная грудка с ягодным соусом и пюре из батата."
+        "image": "https://menu.capito.com.kz/files/products/burger-iz-pechi-s-telyachej-kotletoj-.300x300.jpg",
+        "name": "Бургер из печи с телячьей котлетой",
+        "price": 3500,
+        "description": "Фокачча, запеченная в дровяной печи с сочной телячьей котлетой"
       },
       {
-        "name": "Ризотто с белыми грибами",
-        "price": 750,
-        "description": "Итальянский рис со сливочным вкусом и ароматными лесными грибами."
+        "image": "https://menu.capito.com.kz/files/products/burger-iz-pechi-s-kurinym-file-.300x300.jpg",
+        "name": "Бургер из печи с куриным филе",
+        "price": 3300,
+        "description": "Фокачча, запеченная в дровяной печи с нежным куриным филе на гриле"
       }
     ],
     "Десерты": [
       {
-        "name": "Чизкейк Нью-Йорк",
-        "price": 400,
-        "description": "Классический сливочный чизкейк на песочной основе."
+        "image": "https://menu.capito.com.kz/files/products/malina-berri-rouge1.300x300.jpg",
+        "name": "Пирожное малина",
+        "price": 300,
+        "description": "Эффектное пирожное в форме малины"
       },
       {
-        "name": "Шоколадный фондан",
-        "price": 450,
-        "description": "Горячий шоколадный кекс с жидким центром, подается с мороженым."
+        "image": "https://menu.capito.com.kz/files/products/desert-solar-velvet.300x300.png",
+        "name": "Десерт «Solar Velvet»",
+        "price": 280,
+        "description": "Нежный ванильный бисквит с клубничным компоте и воздушным манговым муссом"
       },
       {
-        "name": "Яблочный штрудель",
-        "price": 350,
-        "description": "Теплый яблочный десерт в тонком тесте с корицей и ванильным соусом."
+        "image": "https://menu.capito.com.kz/files/products/korolevskaya-fistashka.300x300.jpg",
+        "name": "Королевская фисташка",
+        "price": 2950,
+        "description": "Кремовый фисташковый чизкейк с ореховой ноткой."
       },
       {
-        "name": "Тирамису",
-        "price": 400,
-        "description": "Традиционный десерт с маскарпоне, кофе и савоярди."
+        "image": "https://menu.capito.com.kz/files/products/yagodnyi-banan.300x300.png",
+        "name": "Ягодный банан",
+        "price": 2950,
+        "description": "Нежный банановый бисквит, воздушный банановый мусс в шоколадной глазури"
       },
       {
-        "name": "Фруктовая нарезка",
-        "price": 500,
-        "description": "Сезонные фрукты и ягоды."
+        "image": "https://menu.capito.com.kz/files/products/shokoladnyj-tort-.300x300.jpg",
+        "name": "Торт шоколадный",
+        "price": 2100,
+        "description": "_"
       }
     ]
 };
@@ -92,10 +107,11 @@ for (let cat of cats){
   floatingHTML+=`<div class = "navpoint"><a href = "#${cat.replace("_"," ")}">${cat.replace("_"," ")}</a></div>`;
   mainHTML+=`<span id = "${cat.replace("_"," ")}"><h2>${cat.replace("_"," ")}</h2></span><span style = "grid-column: span 3;"></span>`;
   for (let i = 0; i<5; i++){
-    mainHTML+= `<div class = "card"><span>${menu[cat][i]["name"]}</span><div class = "pricetag">${menu[cat][i]["price"]}</div><span>${menu[cat][i]["description"]}</span></div>`;
+    mainHTML+= `<div class = "card"><img src = "${menu[cat][i]["image"]}"><span>${menu[cat][i]["name"]}</span><div class = "pricetag">${menu[cat][i]["price"]}</div><span>${menu[cat][i]["description"]}</span></div>`;
   }
-  mainHTML+='</span><span style = "grid-column: span 3;"></span>';
+  mainHTML+='<span style = "grid-column: span 3;"></span>';
 }
 
 floating.innerHTML = floatingHTML;
 main.innerHTML = mainHTML;
+
